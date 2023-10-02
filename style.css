@@ -1,0 +1,85 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    background-color:lightskyblue;
+    color: #0e0e0e;
+    padding: 20px 0;
+}
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+main {
+
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+h2 {
+    font-size: 24px;
+    color: silver;
+    text-transform: uppercase;
+}
+
+.verse-1{
+    font-family: 'Mooli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    color:rgb(172, 54, 54);
+    background-image: url(../img/img-2.jpeg); 
+    background-size: cover;
+}
+.verse-2
+{
+    font-family: 'Young Serif', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color:mistyrose;
+    background-image: url(../img/img-1.jpg);
+    text-align: right;
+    text-decoration: wavy;
+}
+.verse-3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    color:#f4f4f4;
+    background-image: url(../img/img-5.jpg);
+    height: 400%;
+}
+.verse-4 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #0e0e0e;
+    background-color:lightblue;
+    text-shadow: 3px 3px 3px #0e0e0e;
+    text-align: right;
+}
+.verse-5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    color:brown;
+    background-color:lightpink;
+    text-shadow: 3px 3px 3px brown;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #f4f4f4;
+}
